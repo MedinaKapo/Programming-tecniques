@@ -1,0 +1,162 @@
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In static member function ‘static int Trougao::Orijentacija(const Tacka&, const Tacka&, const Tacka&)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:80:18: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(rezultat==0)vracam=0;
+                  ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In member function ‘void Trougao::Centriraj(const Tacka&)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:175:12: warning: unused variable ‘centar’ [-Wunused-variable]
+     Tacka &centar=centar1;
+            ^~~~~~
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In member function ‘void Trougao::Skaliraj(const Tacka&, double)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:204:16: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(faktor==0)throw domain_error("Nekorektan faktor skaliranja");
+                ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In member function ‘void Trougao::Skaliraj(double)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:244:16: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(faktor==0)throw domain_error("Nekorektan faktor skaliranja");
+                ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In function ‘bool DaLiSuSlicni(const Trougao&, const Trougao&)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:286:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2))return true;
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:286:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2))return true;
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:286:99: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2))return true;
+                                                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:288:71: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)/stranice2.at(0)==stranice1.at(1)/stranice2.at(1)) {
+                                                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:289:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(2)==uglovi2.at(2))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:290:78: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     } else if(stranice1.at(1)/stranice2.at(1)==stranice1.at(2)/stranice2.at(2)) {
+                                                                              ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:291:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(0)==uglovi2.at(0))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:292:78: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     } else if(stranice1.at(2)/stranice2.at(2)==stranice1.at(0)/stranice2.at(0)) {
+                                                                              ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:293:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(1)==uglovi2.at(1))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:295:71: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)/stranice2.at(0)==stranice1.at(1)/stranice2.at(1) && stranice1.at(1)/stranice2.at(1)==stranice1.at(2)/stranice2.at(2) &&
+                                                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:295:139: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)/stranice2.at(0)==stranice1.at(1)/stranice2.at(1) && stranice1.at(1)/stranice2.at(1)==stranice1.at(2)/stranice2.at(2) &&
+                                                                                                                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:296:76: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             stranice1.at(2)/stranice2.at(2)==stranice1.at(0)/stranice2.at(0))return true;
+                                                                            ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp: In function ‘bool DaLiSuPodudarni(const Trougao&, const Trougao&)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:314:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)==stranice2.at(0) && stranice1.at(1)==stranice2.at(1)) {
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:314:75: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)==stranice2.at(0) && stranice1.at(1)==stranice2.at(1)) {
+                                                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:315:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(2)==uglovi2.at(2))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:317:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(1)==stranice2.at(1) && stranice1.at(2)==stranice2.at(2)) {
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:317:75: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(1)==stranice2.at(1) && stranice1.at(2)==stranice2.at(2)) {
+                                                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:318:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(0)==uglovi2.at(0))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:320:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(2)==stranice2.at(2) && stranice1.at(0)==stranice2.at(0)) {
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:320:75: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(2)==stranice2.at(2) && stranice1.at(0)==stranice2.at(0)) {
+                                                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:321:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(uglovi1.at(1)==uglovi2.at(1))return true;
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:325:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:325:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:326:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(2)==stranice2.at(2))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:328:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:328:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:329:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:331:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(2)==uglovi2.at(2) && uglovi1.at(0)==uglovi2.at(0)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:331:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(2)==uglovi2.at(2) && uglovi1.at(0)==uglovi2.at(0)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:332:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(1)==stranice2.at(1))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:336:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:336:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(1)==uglovi2.at(1)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:337:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(1)==stranice2.at(1))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:337:79: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(1)==stranice2.at(1))return true;
+                                                                               ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:339:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:339:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(1)==uglovi2.at(1) && uglovi1.at(2)==uglovi2.at(2)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:340:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(1)==stranice2.at(1) || stranice1.at(2)==stranice2.at(2))
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:340:79: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(1)==stranice2.at(1) || stranice1.at(2)==stranice2.at(2))
+                                                                               ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:343:35: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(2)==uglovi2.at(2)) {
+                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:343:67: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(uglovi1.at(0)==uglovi2.at(0) && uglovi1.at(2)==uglovi2.at(2)) {
+                                                                   ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:344:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(2)==stranice2.at(2))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:344:79: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(2)==stranice2.at(2))return true;
+                                                                               ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:348:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(2)==stranice2.at(2)) {
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:349:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(1)==stranice2.at(1))return true;
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:349:79: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(stranice1.at(0)==stranice2.at(0) || stranice1.at(1)==stranice2.at(1))return true;
+                                                                               ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:352:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)==stranice2.at(0) && stranice1.at(1)==stranice2.at(1) && stranice2.at(2)==stranice1.at(2)) {
+                                       ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:352:75: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)==stranice2.at(0) && stranice1.at(1)==stranice2.at(1) && stranice2.at(2)==stranice1.at(2)) {
+                                                                           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z1/main.cpp:352:111: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     if(stranice1.at(0)==stranice2.at(0) && stranice1.at(1)==stranice2.at(1) && stranice2.at(2)==stranice1.at(2)) {
+                                                                                                               ^

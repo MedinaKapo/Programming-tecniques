@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/Z2/Z4/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/Z2/Z4/main.cpp:86:10: warning: unused variable ‘ispisao’ [-Wunused-variable]
+     bool ispisao=false;
+          ^~~~~~~

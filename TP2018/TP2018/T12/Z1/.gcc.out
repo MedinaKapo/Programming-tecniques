@@ -1,0 +1,14 @@
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp: In member function ‘Sat& Sat::operator-=(int)’:
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp:151:7: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+   int h,min,sec;
+       ^
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp:151:9: warning: variable ‘min’ set but not used [-Wunused-but-set-variable]
+   int h,min,sec;
+         ^~~
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp:151:13: warning: variable ‘sec’ set but not used [-Wunused-but-set-variable]
+   int h,min,sec;
+             ^~~
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T12/Z1/main.cpp:230:6: warning: variable ‘s3’ set but not used [-Wunused-but-set-variable]
+  Sat s3=s1+5;
+      ^~

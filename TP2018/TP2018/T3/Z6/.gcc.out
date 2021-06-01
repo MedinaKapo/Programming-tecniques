@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/T3/Z6/main.cpp: In function ‘int NajvecaSirina(std::vector<std::vector<int> >)’:
+/rhome/m/mkapo2/workspace/TP/T3/Z6/main.cpp:28:9: warning: unused variable ‘brojac’ [-Wunused-variable]
+     int brojac,max=0;
+         ^~~~~~

@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/Z2/Z6/main.cpp: In function ‘tip* StvoriInicijaliziraniNiz(int) [with tip = std::__cxx11::basic_string<char>]’:
+/rhome/m/mkapo2/workspace/TP/Z2/Z6/main.cpp:17:9: warning: ‘pok’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         delete[] pok;
+         ^~~~~~

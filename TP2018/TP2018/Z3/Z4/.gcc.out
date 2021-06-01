@@ -1,0 +1,19 @@
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp: In function ‘std::vector<std::set<std::__cxx11::basic_string<char> > > Razvrstavanje(std::vector<std::__cxx11::basic_string<char> >, int)’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:29:26: warning: variable ‘malih’ set but not used [-Wunused-but-set-variable]
+     int veliki,polovicni,malih;
+                          ^~~~~
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:110:31: error: expected primary-expression before ‘)’ token
+         for(int i= 0;i< n;i+ +){    
+                               ^
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:118:43: error: expected primary-expression before ‘)’ token
+         for(int i= 0;i<timovi.size( );i+ +){
+                                           ^
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:120:69: error: expected primary-expression before ‘)’ token
+         for(auto x=timovi.at(i).begin( );x!=timovi.at(i).end( );x+ +){    
+                                                                     ^
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:129:33: error: expected ‘)’ before ‘k’
+   }   catch(logic_error izuzeta k){
+                                 ^
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:129:33: error: expected ‘{’ before ‘k’
+/rhome/m/mkapo2/workspace/TP/Z3/Z4/main.cpp:129:33: error: ‘k’ was not declared in this scope

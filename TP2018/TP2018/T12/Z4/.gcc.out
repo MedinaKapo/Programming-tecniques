@@ -1,0 +1,68 @@
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp: In function ‘bool operator==(const Kompleksni&, const Kompleksni&)’:
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:31:18: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re==b.re && a.im==b.im;
+                  ^~
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:31:32: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   return a.re==b.re && a.im==b.im;
+                                ^~
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp: In function ‘std::ostream& operator<<(std::ostream&, const Kompleksni&)’:
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:55:12: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   if(a.re==0 && a.im==0)tok<<"0";
+            ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:55:23: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   if(a.re==0 && a.im==0)tok<<"0";
+                       ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:56:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im!=0 && a.im!=1 && a.im!=-1)tok<<a.im<<"i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:56:28: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im!=0 && a.im!=1 && a.im!=-1)tok<<a.im<<"i";
+                            ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:56:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im!=0 && a.im!=1 && a.im!=-1)tok<<a.im<<"i";
+                                       ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:56:51: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im!=0 && a.im!=1 && a.im!=-1)tok<<a.im<<"i";
+                                                   ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:57:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==0)tok<<a.re;
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:57:28: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==0)tok<<a.re;
+                            ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:58:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im>0 && a.im!=1)tok<<a.re<<"+"<<a.im<<"i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:58:38: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im>0 && a.im!=1)tok<<a.re<<"+"<<a.im<<"i";
+                                      ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:59:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im<0 && a.im!=-1)tok<<a.re<<a.im<<"i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:59:39: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im<0 && a.im!=-1)tok<<a.re<<a.im<<"i";
+                                       ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:60:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==1)tok<<a.re<<"+i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:60:28: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==1)tok<<a.re<<"+i";
+                            ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:61:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==-1)tok<<a.re<<"-i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:61:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re!=0 && a.im==-1)tok<<a.re<<"-i";
+                             ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:62:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im==1)tok<<"i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:62:28: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im==1)tok<<"i";
+                            ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:63:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im==-1)tok<<"-i";
+                 ^
+/rhome/m/mkapo2/workspace/TP/T12/Z4/main.cpp:63:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+   else if(a.re==0 && a.im==-1)tok<<"-i";
+                             ^

@@ -1,0 +1,7 @@
+/rhome/m/mkapo2/workspace/TP/T6/Z1/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T6/Z1/main.cpp:56:4: warning: exception of type ‘std::overflow_error’ will be caught
+  } catch(overflow_error izuzetak2) {
+    ^~~~~
+/rhome/m/mkapo2/workspace/TP/T6/Z1/main.cpp:54:4: warning:    by earlier handler for ‘std::runtime_error’
+  } catch(runtime_error izuzetak1) {
+    ^~~~~

@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/T5/Z7/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T5/Z7/main.cpp:40:9: warning: unused variable ‘br’ [-Wunused-variable]
+  double br;
+         ^~

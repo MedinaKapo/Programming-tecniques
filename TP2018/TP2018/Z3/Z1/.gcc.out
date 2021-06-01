@@ -1,0 +1,12 @@
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp: In function ‘std::function<double(double)> BaricentricnaInterpolacija(const std::vector<std::pair<double, double> >&, int)’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp:37:43: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(par.at(i).first==par.at(j).first)throw domain_error("Neispravni cvorovi");
+                                           ^~~~~
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp: In lambda function:
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp:48:32: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+             if(x==parovi.at(i).first)return parovi.at(i).second;
+                                ^~~~~
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp: In function ‘std::function<double(double)> BaricentricnaInterpolacija(double (*)(double), double, double, double, int)’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z1/main.cpp:65:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     while(broj!=x_max) {
+                 ^~~~~

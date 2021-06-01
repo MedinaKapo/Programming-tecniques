@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/T13/Z1/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T13/Z1/main.cpp:98:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i=1;
+      ^

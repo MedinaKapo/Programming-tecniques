@@ -1,0 +1,8 @@
+/rhome/m/mkapo2/workspace/TP/T5/Z3/main.cpp: In function ‘bool kvadrat(int)’:
+/rhome/m/mkapo2/workspace/TP/T5/Z3/main.cpp:23:26: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  if ((int)sqrt(n)==sqrt(n))return true;
+                          ^
+/rhome/m/mkapo2/workspace/TP/T5/Z3/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T5/Z3/main.cpp:53:6: warning: unused variable ‘br’ [-Wunused-variable]
+  int br;
+      ^~

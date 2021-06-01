@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/T13/Z3/main.cpp: In lambda function:
+/rhome/m/mkapo2/workspace/TP/T13/Z3/main.cpp:181:17: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+    if(prosjek1!=prosjek2)return prosjek1>prosjek2;
+                 ^~~~~~~~

@@ -1,0 +1,52 @@
+Enter number of symbols	: Enter symbol 1 : A
+Enter symbol 2 : B
+Enter symbol 3 : C
+Enter symbol 4 : D
+Enter symbol 5 : E
+Enter symbol 6 : F
+Enter symbol 7 : G
+Enter symbol 8 : H
+Enter symbol 9 : I
+Enter symbol 10 : J
+Enter symbol 11 : K
+Enter symbol 12 : L
+Enter symbol 13 : M
+Enter symbol 14 : N
+Enter symbol 15 : O
+Enter symbol 16 : P
+
+Enter probability of A : 
+Enter probability of B : 
+Enter probability of C : 
+Enter probability of D : 
+Enter probability of E : 
+Enter probability of F : 
+Enter probability of G : 
+Enter probability of H : 
+Enter probability of I : 
+Enter probability of J : 
+Enter probability of K : 
+Enter probability of L : 
+Enter probability of M : 
+Enter probability of N : 
+Enter probability of O : 
+Enter probability of P : 
+
+
+	Symbol	Probability	Code
+	A		0.09	000
+	E		0.075	0010
+	D		0.075	0011
+	C		0.075	0100
+	B		0.075	0101
+	I		0.0625	0110
+	H		0.0625	0111
+	G		0.0625	1000
+	F		0.0625	1001
+	K		0.06	1010
+	J		0.06	1011
+	O		0.05	1100
+	N		0.05	1101
+	M		0.05	1110
+	L		0.05	11110
+	P		0.04	11111

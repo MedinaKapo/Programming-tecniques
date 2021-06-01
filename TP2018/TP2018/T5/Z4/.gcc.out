@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP/T5/Z4/main.cpp: In lambda function:
+/rhome/m/mkapo2/workspace/TP/T5/Z4/main.cpp:32:87: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+  cout<<"U deku ima "<<count_if(d.begin(),d.end(),[](int &br){if((int)sqrt(br)==sqrt(br))return true;return false;});
+                                                                                       ^

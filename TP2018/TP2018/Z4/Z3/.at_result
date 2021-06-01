@@ -1,0 +1,124 @@
+{
+    "buildhost_description": {
+        "id": "lab002c26",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In static member function ‘static bool Pregled::DolaziPrije(const Pregled&, const Pregled&)’:\nmain.cpp:119:19: warning: variable ‘m3’ set but not used [-Wunused-but-set-variable]\n         int m1,m2,m3;\n                   ^~\nmain.cpp:125:19: warning: variable ‘n3’ set but not used [-Wunused-but-set-variable]\n         int n1,n2,n3;\n                   ^~\nmain.cpp: In constructor ‘Pregledi::Pregledi(int)’:\nmain.cpp:146:15: warning: ‘Pregledi::max_broj’ will be initialized after [-Wreorder]\n     const int max_broj;\n               ^~~~~~~~\nmain.cpp:145:9: warning:   ‘int Pregledi::broj’ [-Wreorder]\n     int broj;\n         ^~~~\nmain.cpp:148:14: warning:   when initialized here [-Wreorder]\n     explicit Pregledi(int max_broj_pregleda):max_broj(max_broj_pregleda),broj(0){\n              ^~~~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "119",
+                "col": "19",
+                "message": "variable 'm3' set but not used",
+                "output": "/tmp/buildservice/bs_9782/main.cpp:119:19: warning: variable ‘m3’ set but not used [-Wunused-but-set-variable]         int m1,m2,m3;                   ^~",
+                "code": "int m1,m2,m3;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "125",
+                "col": "19",
+                "message": "variable 'n3' set but not used",
+                "output": "/tmp/buildservice/bs_9782/main.cpp:125:19: warning: variable ‘n3’ set but not used [-Wunused-but-set-variable]         int n1,n2,n3;                   ^~/tmp/buildservice/bs_9782/main.cpp: In constructor ‘Pregledi::Pregledi(int)’:",
+                "code": "int n1,n2,n3;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "146",
+                "col": "15",
+                "message": "'Pregledi::max_broj' will be initialized after",
+                "output": "/tmp/buildservice/bs_9782/main.cpp:146:15: warning: ‘Pregledi::max_broj’ will be initialized after [-Wreorder]     const int max_broj;               ^~~~~~~~",
+                "code": "const int max_broj;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "145",
+                "col": "9",
+                "message": "'int Pregledi::broj'",
+                "output": "/tmp/buildservice/bs_9782/main.cpp:145:9: warning:   ‘int Pregledi::broj’ [-Wreorder]     int broj;         ^~~~",
+                "code": "int broj;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "148",
+                "col": "14",
+                "message": "when initialized here",
+                "output": "/tmp/buildservice/bs_9782/main.cpp:148:14: warning:   when initialized here [-Wreorder]     explicit Pregledi(int max_broj_pregleda):max_broj(max_broj_pregleda),broj(0){              ^~~~~~~~",
+                "code": "explicit Pregledi(int max_broj_pregleda):max_broj(max_broj_pregleda),broj(0){"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 6,
+            "run_result": {
+                "output": "enis                          30/5/2019 17:17\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2": {
+            "status": 6,
+            "run_result": {
+                "output": "enis                          30/5/2019 17:17\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "3": {
+            "status": 6,
+            "run_result": {
+                "output": "enis                          30/5/2019 17:17\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "4": {
+            "status": 6,
+            "run_result": {
+                "output": "enis                          30/5/2019 17:17\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1559426648
+}

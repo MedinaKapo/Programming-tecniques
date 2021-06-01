@@ -1,0 +1,11 @@
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp: In instantiation of ‘Matrica<TipElemenata> MatricniPolinom(const Matrica<TipElemenata>&, std::vector<double>) [with TipElemenata = double]’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp:182:49:   required from here
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp:138:34: warning: variable ‘h’ set but not used [-Wunused-but-set-variable]
+             Matrica<TipElemenata>h=mat1;
+                                  ^
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp: In instantiation of ‘Matrica<TipElemenata> ProduktMatrica(const Matrica<TipElemenata>&, const Matrica<TipElemenata>&) [with TipElemenata = double]’:
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp:141:32:   required from ‘Matrica<TipElemenata> MatricniPolinom(const Matrica<TipElemenata>&, std::vector<double>) [with TipElemenata = double]’
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp:182:49:   required from here
+/rhome/m/mkapo2/workspace/TP/Z3/Z3/main.cpp:73:18: warning: unused variable ‘suma’ [-Wunused-variable]
+     TipElemenata suma{};
+                  ^~~~

@@ -1,0 +1,10 @@
+Rjesavanje kvadratnih kongruencija oblika x^2 == a (mod m)
+----------------------------------------------------------
+
+a = m = 
+Rjesenja su: 131 2678 
+
+Poredjenja radi, slijedi rjesavanje grubom silom
+(testirajte razliku na brojevima s 7 ili vise cifara)...
+
+Rjesenja su: 131 2678 

@@ -1,0 +1,14 @@
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp: In function ‘bool TestPerioda(std::vector<double>, int)’:
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp:14:29: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(v.at(i)!=v.at(i+p))return false;
+                             ^
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp:48:15: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(n!=0)v.push_back(n);
+               ^
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp:49:15: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+         if(n==0)break;
+               ^
+/rhome/m/mkapo2/workspace/TP/T2/Z2/main.cpp:50:16: warning: comparing floating point with == or != is unsafe [-Wfloat-equal]
+     } while(n!=0);
+                ^

@@ -1,0 +1,102 @@
+{
+    "buildhost_description": {
+        "id": "lab002c05",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In function ‘tip* StvoriInicijaliziraniNiz(int) [with tip = std::__cxx11::basic_string<char>]’:\nmain.cpp:17:9: warning: ‘pok’ may be used uninitialized in this function [-Wmaybe-uninitialized]\n         delete[] pok;\n         ^~~~~~",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "17",
+                "col": "9",
+                "message": "'pok' may be used uninitialized in this function",
+                "output": "/tmp/buildservice/bs_186/main.cpp:17:9: warning: ‘pok’ may be used uninitialized in this function [-Wmaybe-uninitialized]         delete[] pok;         ^~~~~~",
+                "code": "delete[] pok;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "2453": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite broj rijeci: Unesite rijeci: Sortirane rijeci: cz zc zz aaa aab \nUnesite rijec za pretragu: Rijec 'zc' se nalazi u nizu.\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2454": {
+            "status": 1,
+            "run_result": {
+                "output": "Unesite broj rijeci: Unesite rijeci: Sortirane rijeci: med sok meso kajmak marmelada \nUnesite rijec za pretragu: Rijec 'kruska' se ne nalazi u nizu.\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2455": {
+            "status": 1,
+            "run_result": {
+                "output": "100",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2456": {
+            "status": 1,
+            "run_result": {
+                "output": "10",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        },
+        "2457": {
+            "status": 1,
+            "run_result": {
+                "output": "abc",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 2,
+    "time": 1556127481
+}

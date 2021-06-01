@@ -1,0 +1,58 @@
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp: In constructor ‘Liga::Liga(int)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:58:12: warning: ‘Liga::max_br_timova’ will be initialized after [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:57:6: warning:   ‘int Liga::broj_timova’ [-Wreorder]
+  int broj_timova;
+      ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:62:11: warning:   when initialized here [-Wreorder]
+  explicit Liga(int velicina_lige):max_br_timova(velicina_lige),broj_timova(0),timovi(new Tim*[velicina_lige] {}) {}
+           ^~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp: In constructor ‘Liga::Liga(std::initializer_list<Tim>)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:59:8: warning: ‘Liga::timovi’ will be initialized after [-Wreorder]
+  Tim **timovi;
+        ^~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:57:6: warning:   ‘int Liga::broj_timova’ [-Wreorder]
+  int broj_timova;
+      ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:63:11: warning:   when initialized here [-Wreorder]
+  explicit Liga(initializer_list<Tim> lista_timova):timovi(nullptr),broj_timova(lista_timova.size()),max_br_timova(broj_timova)
+           ^~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp: In copy constructor ‘Liga::Liga(const Liga&)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:59:8: warning: ‘Liga::timovi’ will be initialized after [-Wreorder]
+  Tim **timovi;
+        ^~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:58:12: warning:   ‘const int Liga::max_br_timova’ [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:88:1: warning:   when initialized here [-Wreorder]
+ Liga::Liga(const Liga &l):timovi(nullptr),max_br_timova(l.max_br_timova),broj_timova(l.broj_timova)
+ ^~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:58:12: warning: ‘Liga::max_br_timova’ will be initialized after [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:57:6: warning:   ‘int Liga::broj_timova’ [-Wreorder]
+  int broj_timova;
+      ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:88:1: warning:   when initialized here [-Wreorder]
+ Liga::Liga(const Liga &l):timovi(nullptr),max_br_timova(l.max_br_timova),broj_timova(l.broj_timova)
+ ^~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp: In constructor ‘Liga::Liga(Liga&&)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:59:8: warning: ‘Liga::timovi’ will be initialized after [-Wreorder]
+  Tim **timovi;
+        ^~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:58:12: warning:   ‘const int Liga::max_br_timova’ [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:124:1: warning:   when initialized here [-Wreorder]
+ Liga::Liga(Liga &&l):timovi(nullptr),max_br_timova(l.max_br_timova),broj_timova(l.broj_timova)
+ ^~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:58:12: warning: ‘Liga::max_br_timova’ will be initialized after [-Wreorder]
+  const int max_br_timova;
+            ^~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:57:6: warning:   ‘int Liga::broj_timova’ [-Wreorder]
+  int broj_timova;
+      ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T11/Z4/main.cpp:124:1: warning:   when initialized here [-Wreorder]
+ Liga::Liga(Liga &&l):timovi(nullptr),max_br_timova(l.max_br_timova),broj_timova(l.broj_timova)
+ ^~~~

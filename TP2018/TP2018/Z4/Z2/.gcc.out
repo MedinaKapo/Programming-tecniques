@@ -1,0 +1,14 @@
+/rhome/m/mkapo2/workspace/TP2018/Z4/Z2/main.cpp:163:1: warning: "/*" within comment [-Wcomment]
+ /*#include <iostream> 
+  
+/rhome/m/mkapo2/workspace/TP2018/Z4/Z2/main.cpp:1229:2: warning: "/*" within comment [-Wcomment]
+  /* Let us create following weighted graph 
+   
+/rhome/m/mkapo2/workspace/TP2018/Z4/Z2/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP2018/Z4/Z2/main.cpp:1335:6: error: ‘getch’ was not declared in this scope
+      getch();
+      ^~~~~
+/rhome/m/mkapo2/workspace/TP2018/Z4/Z2/main.cpp:1335:6: note: suggested alternative: ‘getc’
+      getch();
+      ^~~~~
+      getc

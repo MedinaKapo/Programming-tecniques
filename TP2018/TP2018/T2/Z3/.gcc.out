@@ -1,0 +1,5 @@
+/rhome/m/mkapo2/workspace/TP/T2/Z3/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T2/Z3/main.cpp:18:6: warning: ‘re’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     z={re,im};
+     ~^~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T2/Z3/main.cpp:18:6: warning: ‘im’ may be used uninitialized in this function [-Wmaybe-uninitialized]

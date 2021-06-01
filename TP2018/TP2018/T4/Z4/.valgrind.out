@@ -1,0 +1,32 @@
+==4920== Memcheck, a memory error detector
+==4920== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4920== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4920== Command: /rhome/m/mkapo2/workspace/TP/T4/Z4/.runme
+==4920== Parent PID: 4895
+==4920== 
+==4920== 
+==4920== Process terminating with default action of signal 1 (SIGHUP)
+==4920==    at 0x56EF081: read (read.c:27)
+==4920==    by 0x566C147: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:531)
+==4920==    by 0x566D3F1: _IO_default_uflow (genops.c:380)
+==4920==    by 0x512B95C: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==4920==    by 0x5139739: std::istream::sentry::sentry(std::istream&, bool) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==4920==    by 0x513BCCD: std::istream& std::istream::_M_extract<double>(double&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+==4920==    by 0x109283: void UnosBroja<double>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, double&) (main.cpp:9)
+==4920==    by 0x108FE2: main (main.cpp:30)
+==4920== 
+==4920== HEAP SUMMARY:
+==4920==     in use at exit: 37 bytes in 1 blocks
+==4920==   total heap usage: 3 allocs, 2 frees, 73,765 bytes allocated
+==4920== 
+==4920== LEAK SUMMARY:
+==4920==    definitely lost: 0 bytes in 0 blocks
+==4920==    indirectly lost: 0 bytes in 0 blocks
+==4920==      possibly lost: 0 bytes in 0 blocks
+==4920==    still reachable: 37 bytes in 1 blocks
+==4920==         suppressed: 0 bytes in 0 blocks
+==4920== Reachable blocks (those to which a pointer was found) are not shown.
+==4920== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==4920== 
+==4920== For counts of detected and suppressed errors, rerun with: -v
+==4920== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

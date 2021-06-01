@@ -1,0 +1,27 @@
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp: In instantiation of ‘Matrica<TipEl>::Matrica(int, int, char) [with TipEl = double]’:
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:323:27:   required from here
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:19:7: warning: ‘Matrica<double>::ime_matrice’ will be initialized after [-Wreorder]
+  char ime_matrice;
+       ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:18:10: warning:   ‘double** Matrica<double>::elementi’ [-Wreorder]
+  TipEl **elementi;
+          ^~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:167:1: warning:   when initialized here [-Wreorder]
+ Matrica<TipEl>::Matrica(int br_redova,int br_kolona,char ime):
+ ^~~~~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp: In instantiation of ‘Matrica<TipEl> operator*(const Matrica<TipEl>&, const Matrica<TipEl>&) [with TipEl = double]’:
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:338:7:   required from here
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:249:8: warning: unused variable ‘suma’ [-Wunused-variable]
+  TipEl suma{};
+        ^~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp: In instantiation of ‘Matrica<TipEl>::Matrica(const Matrica<TipEl>&) [with TipEl = double]’:
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:355:27:   required from here
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:19:7: warning: ‘Matrica<double>::ime_matrice’ will be initialized after [-Wreorder]
+  char ime_matrice;
+       ^~~~~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:18:10: warning:   ‘double** Matrica<double>::elementi’ [-Wreorder]
+  TipEl **elementi;
+          ^~~~~~~~
+/rhome/m/mkapo2/workspace/TP/T12/Z6/main.cpp:177:1: warning:   when initialized here [-Wreorder]
+ Matrica<TipEl>::Matrica(const Matrica<TipEl>&m):br_redova(m.br_redova),
+ ^~~~~~~~~~~~~~

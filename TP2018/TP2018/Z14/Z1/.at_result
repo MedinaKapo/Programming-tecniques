@@ -1,0 +1,82 @@
+{
+    "buildhost_description": {
+        "id": "lab002c18",
+        "os": "Linux 2.6.32-754.2.1.el6.x86_64 x86_64\n\"CentOS release 6.10 (Final)\"\n",
+        "compiler_version": "g++ (GCC) 6.2.0",
+        "debugger_version": "GNU gdb (GDB) 7.12",
+        "profiler_version": "valgrind-3.12.0"
+    },
+    "status": 4,
+    "compile_result": {
+        "status": 1,
+        "output": "main.cpp: In function \u2018int main()\u2019:\nmain.cpp:69:17: warning: unused variable \u2018dan\u2019 [-Wunused-variable]\n             int dan,mjesec,godina;\n                 ^~~\nmain.cpp:69:21: warning: unused variable \u2018mjesec\u2019 [-Wunused-variable]\n             int dan,mjesec,godina;\n                     ^~~~~~\nmain.cpp:69:28: warning: unused variable \u2018godina\u2019 [-Wunused-variable]\n             int dan,mjesec,godina;\n                            ^~~~~~\nmain.cpp:71:20: warning: unused variable \u2018mjerenje\u2019 [-Wunused-variable]\n             double mjerenje;\n                    ^~~~~~~~\nmain.cpp:83:17: warning: variable \u2018j\u2019 set but not used [-Wunused-but-set-variable]\n             int j=0;\n                 ^",
+        "parsed_output": [
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "69",
+                "col": "17",
+                "message": "unused variable 'dan'",
+                "output": "\/tmp\/buildservice\/bs_2745\/main.cpp:69:17: warning: unused variable \u2018dan\u2019 [-Wunused-variable]             int dan,mjesec,godina;                 ^~~",
+                "code": "int dan,mjesec,godina;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "69",
+                "col": "21",
+                "message": "unused variable 'mjesec'",
+                "output": "\/tmp\/buildservice\/bs_2745\/main.cpp:69:21: warning: unused variable \u2018mjesec\u2019 [-Wunused-variable]             int dan,mjesec,godina;                     ^~~~~~",
+                "code": "int dan,mjesec,godina;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "69",
+                "col": "28",
+                "message": "unused variable 'godina'",
+                "output": "\/tmp\/buildservice\/bs_2745\/main.cpp:69:28: warning: unused variable \u2018godina\u2019 [-Wunused-variable]             int dan,mjesec,godina;                            ^~~~~~",
+                "code": "int dan,mjesec,godina;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "71",
+                "col": "20",
+                "message": "unused variable 'mjerenje'",
+                "output": "\/tmp\/buildservice\/bs_2745\/main.cpp:71:20: warning: unused variable \u2018mjerenje\u2019 [-Wunused-variable]             double mjerenje;                    ^~~~~~~~",
+                "code": "double mjerenje;"
+            },
+            {
+                "type": "warning",
+                "file": "main.cpp",
+                "line": "83",
+                "col": "17",
+                "message": "variable 'j' set but not used",
+                "output": "\/tmp\/buildservice\/bs_2745\/main.cpp:83:17: warning: variable \u2018j\u2019 set but not used [-Wunused-but-set-variable]             int j=0;                 ^",
+                "code": "int j=0;"
+            }
+        ]
+    },
+    "run_result": [],
+    "debug_result": [],
+    "profile_result": [],
+    "test_results": {
+        "1": {
+            "status": 6,
+            "run_result": {
+                "output": "Mobilno mjerno mjesto Aerodrom, stanica II\n------------------------------------------\nDatum mjerenja: 9\/11\/2014\nMinimalna temperatura: -1\nMaksimalna temperatura: 10\nProsjecna temperatura: 5.20\n\nMeteoroloska stanica Bjelave\n----------------------------\nDatum mjerenja: 23\/5\/2016\nMinimalna temperatura: 6\nMaksimalna temperatura: 20\nProsjecna temperatura: 13.14\n\n",
+                "duration": 0,
+                "status": 1
+            },
+            "debug_result": [],
+            "profile_result": [],
+            "compile_result": {
+                "status": 1,
+                "output": ""
+            }
+        }
+    },
+    "queue_items": 0,
+    "time": 1561007075
+}

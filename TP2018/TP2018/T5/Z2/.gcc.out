@@ -1,0 +1,7 @@
+/rhome/m/mkapo2/workspace/TP/T5/Z2/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T5/Z2/main.cpp:32:7: warning: unused variable ‘p’ [-Wunused-variable]
+  int *p=RazmijeniBlokove(begin(niz1),end(niz1),begin(niz2));
+       ^
+/rhome/m/mkapo2/workspace/TP/T5/Z2/main.cpp:37:7: warning: variable ‘s3’ set but not used [-Wunused-but-set-variable]
+  auto s3=RazmijeniBlokove(s1.begin(),s1.end(),s2.begin());
+       ^~

@@ -1,0 +1,15 @@
+Odaberite opciju (1 - unos cvorova, 2 - aproksimacija): Unesite krajeve intervala i korak: Unesite red interpolacije: Unesite argument (ili "kraj" za kraj): f(1) = 1.84147 fapprox(1) = 1.84147
+Unesite argument (ili "kraj" za kraj): f(2) = 4.9093 fapprox(2) = 4.91588
+Unesite argument (ili "kraj" za kraj): f(3) = 9.14112 fapprox(3) = 9.34906
+Unesite argument (ili "kraj" za kraj): f(4) = 15.2432 fapprox(4) = 17.0272
+Unesite argument (ili "kraj" za kraj): f(5) = 24.0411 fapprox(5) = 32.4627
+Unesite argument (ili "kraj" za kraj): f(0.3) = 0.38552 fapprox(0.3) = 0.38552
+Unesite argument (ili "kraj" za kraj): f(0.57) = 0.864532 fapprox(0.57) = 0.864532
+Unesite argument (ili "kraj" za kraj): f(-2) = 3.0907 fapprox(-2) = 3.12192
+Unesite argument (ili "kraj" za kraj): f(-4) = 16.7568 fapprox(-4) = 15.5912
+Unesite argument (ili "kraj" za kraj): f(-7) = 48.343 fapprox(-7) = -19.1548
+Unesite argument (ili "kraj" za kraj): f(-0.7) = -0.154218 fapprox(-0.7) = -0.153751
+Unesite argument (ili "kraj" za kraj): f(0.1) = 0.109833 fapprox(0.1) = 0.109833
+Unesite argument (ili "kraj" za kraj): f(0.2) = 0.238669 fapprox(0.2) = 0.238669
+Unesite argument (ili "kraj" za kraj): f(0.333) = 0.437769 fapprox(0.333) = 0.437769
+Unesite argument (ili "kraj" za kraj): 

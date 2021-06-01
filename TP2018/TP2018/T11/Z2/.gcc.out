@@ -1,0 +1,8 @@
+/rhome/m/mkapo2/workspace/TP/T11/Z2/main.cpp: In member function ‘double StedniRacun::Ulozi(double)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z2/main.cpp:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/rhome/m/mkapo2/workspace/TP/T11/Z2/main.cpp: In member function ‘double StedniRacun::Podigni(double)’:
+/rhome/m/mkapo2/workspace/TP/T11/Z2/main.cpp:47:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^

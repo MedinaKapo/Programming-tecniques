@@ -1,0 +1,13 @@
+/rhome/m/mkapo2/workspace/TP/T9/Z4/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/T9/Z4/main.cpp:158:44: error: ‘static bool Sat::DaLiJeIspravno(int, int, int)’ is private within this context
+  bool ispravnost=Sat::DaLiJeIspravno(4,5,45);
+                                            ^
+/rhome/m/mkapo2/workspace/TP/T9/Z4/main.cpp:37:6: note: declared private here
+ bool Sat::DaLiJeIspravno(int h,int m,int s){
+      ^~~
+/rhome/m/mkapo2/workspace/TP/T9/Z4/main.cpp:160:42: error: ‘static bool Sat::DaLiJeIspravno(int, int, int)’ is private within this context
+  ispravnost=Sat::DaLiJeIspravno(15,-30,67);
+                                          ^
+/rhome/m/mkapo2/workspace/TP/T9/Z4/main.cpp:37:6: note: declared private here
+ bool Sat::DaLiJeIspravno(int h,int m,int s){
+      ^~~

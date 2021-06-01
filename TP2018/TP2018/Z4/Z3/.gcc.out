@@ -1,0 +1,27 @@
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp: In static member function ‘static bool Pregled::DolaziPrije(const Pregled&, const Pregled&)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:119:19: warning: variable ‘m3’ set but not used [-Wunused-but-set-variable]
+         int m1,m2,m3;
+                   ^~
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:125:19: warning: variable ‘n3’ set but not used [-Wunused-but-set-variable]
+         int n1,n2,n3;
+                   ^~
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp: In constructor ‘Pregledi::Pregledi(int)’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:146:15: warning: ‘Pregledi::max_broj’ will be initialized after [-Wreorder]
+     const int max_broj;
+               ^~~~~~~~
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:145:9: warning:   ‘int Pregledi::broj’ [-Wreorder]
+     int broj;
+         ^~~~
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:148:14: warning:   when initialized here [-Wreorder]
+     explicit Pregledi(int max_broj_pregleda):max_broj(max_broj_pregleda),broj(0){
+              ^~~~~~~~
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp: In function ‘int main()’:
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:329:11: error: no match for ‘operator[]’ (operand types are ‘std::initializer_list<Pregled>’ and ‘int’)
+     spisak[i]=(element);
+           ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:332:15: error: no match for call to ‘(Pregledi) (std::initializer_list<Pregled>&)’
+     niz(spisak);
+               ^
+/rhome/m/mkapo2/workspace/TP/Z4/Z3/main.cpp:348:22: error: base operand of ‘->’ has non-pointer type ‘Pregledi’
+             cout<<niz->DajBrojPregledaNaDatum(d11);
+                      ^~

@@ -1,0 +1,15 @@
+==3001== Memcheck, a memory error detector
+==3001== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3001== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3001== Command: /rhome/m/mkapo2/workspace/TP/T11/Z2/.runme
+==3001== Parent PID: 2983
+==3001== 
+==3001== 
+==3001== HEAP SUMMARY:
+==3001==     in use at exit: 0 bytes in 0 blocks
+==3001==   total heap usage: 1 allocs, 1 frees, 72,704 bytes allocated
+==3001== 
+==3001== All heap blocks were freed -- no leaks are possible
+==3001== 
+==3001== For counts of detected and suppressed errors, rerun with: -v
+==3001== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

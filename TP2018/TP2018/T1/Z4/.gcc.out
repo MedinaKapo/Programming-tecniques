@@ -1,0 +1,4 @@
+/rhome/m/mkapo2/workspace/TP2018/T1/Z4/main.cpp: In function ‘std::vector<long long int> QuadraticCongruencePower2(Int, Int)’:
+/rhome/m/mkapo2/workspace/TP2018/T1/Z4/main.cpp:283:10: warning: suggest explicit braces to avoid ambiguous ‘else’ [-Wdangling-else]
+   else if(k == 2)
+          ^
